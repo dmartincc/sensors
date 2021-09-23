@@ -2,13 +2,13 @@
 
 In this repository you can find the final datasets for simulating the results of the article where you found this repository url.
 
-## ILI model dataset
+## ILI weekly model dataset
 
 This dataset contains a weekly projection of the ILI at national level in Spain.
 
 model_flu_with_sensors.csv
 
-## ILI sensors model dataset
+## ILI individual sensors model dataset
 
 This dataset contains individuals labeled as sensors and no-sensors of the ILI on Twitter, along behavioural and content features.
 
