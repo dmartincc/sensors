@@ -20,10 +20,25 @@ DT: Weekly total out-degree Twitter population
 
 DS: Weekly total out-degree Sensors population
 
+
 ## ILI individual sensors model dataset
 
 This dataset contains individuals labeled as sensors and no-sensors of the ILI on Twitter, along behavioural and content features.
 
 model_sensors_behaviour_topics.csv
+
+Variables: 
+
+Ci:  Numeric variables. 45 Content categories variables.
+
+number_posts_30days: Numeric variable. Number of posts over the 30 days of observation.
+
+gyration_radius: Numeric variable. Radius of gyration over the 30 days of observation.
+
+out_degree: Numeric variable. Individual out-degree.
+
+sensor: Binary variable. 1 sensor, 0 control.
+
+All variables are already normalized.
 
 For further details upon request.
