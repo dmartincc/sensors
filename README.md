@@ -6,7 +6,15 @@ In this repository you can find the final datasets for simulating the results of
 
 This dataset contains a weekly projection of the ILI at national level in Spain.
 
-model_flu_with_sensors.csv
+time_series_flu_model.csv
+
+Variables:
+
+date_week: Calendar week 
+week_flu: Flu season week
+I: Official ILI rate
+DT: Weekly total out-degree Twitter population
+DS: Weekly total out-degree Sensors population
 
 ## ILI individual sensors model dataset
 
