@@ -11,9 +11,13 @@ time_series_flu_model.csv
 Variables:
 
 date_week: Calendar week 
+
 week_flu: Flu season week
+
 I: Official ILI rate
+
 DT: Weekly total out-degree Twitter population
+
 DS: Weekly total out-degree Sensors population
 
 ## ILI individual sensors model dataset
