@@ -4,7 +4,7 @@ import numpy as np
 import random
 
 API_KEYS = {
-    '': 0,
+    'YOUR API KEY HERE': 0,
 }
 
 def load_data():
