@@ -35,6 +35,28 @@ python 01_nlp/classifier.py
 
 ```
 
+
+### Sample tweets
+
+This dataset contains a 100 ILI-related mentions and are labelled by first or not first person.
+
+**sample_tweets.csv**
+
+Variables:
+
+**id**: String variable. Hashed id to anonymized user.
+
+**date**: String variable. Date when the tweet was published.
+
+**lat**: Numeric variable. Geographic latitude.
+
+**lng**: Numeric variable. Geopraphic longitude.
+
+**text**: String variable. Tweet content with metadata anonimized.
+
+**flu**: Binary variable. 1 first person ili-related mention, 0 no first person ili-related mention.
+
+
 ## Tweets topic labelling procedure using TextRazor
 
 This second folder contains the python code develop to enrich our data with the IPTC taxonomy.
@@ -58,19 +80,19 @@ This third folder contains a Rscript and the final time series dataset _(time_se
 
 This dataset contains a weekly projection of the ILI at national level in Spain.
 
-*time_series_flu_model.csv*
+**time_series_flu_model.csv**
 
 Variables:
 
-*date_week*: Calendar week 
+**date_week**: String variable. Calendar week 
 
-*week_flu*: Flu season week
+**week_flu**: Numeric variable. Seasonal weeks since the peak.
 
-*I*: Official ILI rate
+**I**: Numeric variable. Official ILI rate.
 
-*DT*: Weekly total out-degree Twitter population
+**DT**: Numeric variable. Weekly total out-degree Twitter population.
 
-*DS*: Weekly total out-degree Sensors population
+**DS**: Numeric variable. Weekly total out-degree Sensors population.
 
 
 ```
@@ -93,19 +115,19 @@ Rscript 04_logistic_regression/model.R
 
 This dataset contains individuals labeled as sensors and no-sensors of the ILI on Twitter, along behavioural and content features.
 
-*model_sensors_behaviour_topics.csv*
+**model_sensors_behaviour_topics.csv**
 
 Variables: 
 
-*Ci*:  Numeric variables. IPTC Categories Weight from 0 to 1. 45 variables.
+**Ci**:  Numeric variables. IPTC Categories Weight from 0 to 1. 45 variables.
 
-*number_posts_30days*: Numeric variable. Number of posts over the 30 days of observation.
+**number_posts_30days**: Numeric variable. Number of posts over the 30 days of observation.
 
-*gyration_radius*: Numeric variable. Radius of gyration over the 30 days of observation.
+**gyration_radius**: Numeric variable. Radius of gyration over the 30 days of observation.
 
-*out_degree*: Numeric variable. Individual out-degree.
+**out_degree**: Numeric variable. Individual out-degree.
 
-*sensor*: Binary variable. 1 sensor, 0 control.
+**sensor**: Binary variable. 1 sensor, 0 control.
 
 All variables are already normalized.
 
