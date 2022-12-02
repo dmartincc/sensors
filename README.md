@@ -97,7 +97,7 @@ This dataset contains individuals labeled as sensors and no-sensors of the ILI o
 
 Variables: 
 
-*Ci*:  Numeric variables. 45 Content weigth categories variables.
+*Ci*:  Numeric variables. IPTC Categories Weight from 0 to 1. 45 variables.
 
 *number_posts_30days*: Numeric variable. Number of posts over the 30 days of observation.
 
