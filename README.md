@@ -20,7 +20,7 @@ Below you can find details on how to run our code for each folder.
 
 ## First person ili-related mentions classifier
 
-This first folder contains a sample code in _python_ to train a NLP model with the purpose to train a First person ili-related mentions classifier.
+This first folder contains a sample code in _python_ to train a NLP model classifier with the purpose to detect First person ili-related mentions.
 
 We also provide a sample dataset of tweets (_sample_tweets.csv_) to run the code.
 
