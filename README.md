@@ -4,7 +4,7 @@ Dear reviewer,
 
 If you are here, it's beacause you read our article _High Out Degree Twitter Users as Sensors to Detect Early Warnings of Influenza at Scale_.
 
-Thanks for taking the time.
+Thanks for taking the time and we hope to help you on your work with this documentation. 
 
 In this repository you can find the following artefacts to understand and reproduce our work:
 
@@ -135,4 +135,3 @@ All variables are already normalized.
 
 
 
-We hope we have helped you on your work with this documentation. 
