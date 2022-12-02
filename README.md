@@ -1,7 +1,7 @@
 
 # Social Media Sensors to Detect Early Warnings of Influenza at Scale
 
-This repository contains the code and aggregated data to reproduce sofware arfacts and figures of Martín-Corral et al. "Social Media Sensors to Detect Early Warnings of Influenza at Scale".
+This repository contains the code and aggregated data to reproduce sofware arfacts and figures of Martín-Corral et al. "Social Media Sensors to Detect Early Warnings of Influenza at Scale". Corresponding authors: David Martín-Corral (dmartincc84@gmail.com) and Esteban Moro (E-mail: emoro@mit.edu)
 
 1. First person ili-related mentions classifier (folder: 01_nlp)
 
