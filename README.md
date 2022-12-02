@@ -1,12 +1,12 @@
 
 # Social Media Sensors to Detect Early Warnings of Influenza at Scale
 
-This repository contains the code and aggregated data to reproduce sofware arfacts and figures of Martín-Corral et al. 
+This repository contains the code, sample data, and aggregated data to reproduce the results and figures of Martín-Corral et al. 
 ["Social Media Sensors to Detect Early Warnings of Influenza at Scale"](https://www.medrxiv.org/content/10.1101/2022.11.15.22282355v1).
 
-
-
 Corresponding authors: David Martín-Corral (dmartincc84@gmail.com) and Esteban Moro (E-mail: emoro@mit.edu)
+
+Spefically:
 
 1. First person ili-related mentions classifier (folder: 01_nlp)
 
@@ -18,9 +18,9 @@ Corresponding authors: David Martín-Corral (dmartincc84@gmail.com) and Esteban 
 
 Below you can find details on how to run the code for each folder.
 
-## First person ili-related mentions classifier
+## 1. First person ili-related mentions classifier
 
-This first folder contains a sample code in _python_ to train a NLP model classifier with the purpose to detect First person ili-related mentions.
+This first folder contains a sample code in _python_ to train a NLP model classifier with the purpose to detect first-person ili-related mentions.
 
 It also contains a sample dataset of tweets (_sample_tweets.csv_) to run the code.
 
@@ -57,9 +57,9 @@ Variables:
 **flu**: Binary variable. 1 first person ili-related mention, 0 no first person ili-related mention.
 
 
-## Tweets topic labelling procedure using TextRazor
+## 2. Tweets topic-labelling procedure using TextRazor
 
-This second folder contains the python code develop to enrich our data with the IPTC taxonomy.
+This second folder contains the python code develop to enrich our data with the [IPTC taxonomy](https://iptc.org/standards/media-topics/).
 
 It also contains a sample dataset of tweets (_sample_tweets.csv_) to run the code.
 
@@ -69,10 +69,10 @@ python 02_textrazor/labelling.py
 
 ```
 
-Note: Before running the code you should generate an API Key from TextRazor in order to access to their service and add it to the line 7 of the script.
+Note: Before running the code you should generate an API Key from [TextRazor](https://www.textrazor.com) in order to access to their service and add it to the line 7 of the script.
 
 
-## Seasonal ILI regression models
+## 3. Seasonal ILI regression models
 
 This third folder contains a Rscript and the final time series dataset _(time_series_flu_model.csv)_, described below, to simulate _Table 1_ and _Figure 5A_ from our paper.
 
@@ -100,7 +100,7 @@ Rscript 03_linear_regression/model.R
 
 ```
 
-## ILI Sensors logistic regression models 
+## 3. ILI Sensors logistic regression models 
 
 
 This fourth folder contains a Rscript and the final sensor dataset _(model_sensors_behaviours_topics.csv)_, described below, to simulate  _Figure 6A_ from our paper.
