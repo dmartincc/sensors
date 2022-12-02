@@ -69,7 +69,7 @@ python 02_textrazor/labelling.py
 
 ```
 
-Note: Before running the code you should generate an API Key from TextRazor in order to access to their service.
+Note: Before running the code you should generate an API Key from TextRazor in order to access to their service and add it to the line 7 of the script.
 
 
 ## Seasonal ILI regression models
