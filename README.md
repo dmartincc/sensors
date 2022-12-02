@@ -1,12 +1,7 @@
-# High Out Degree Twitter Users as Sensors to Detect Early Warnings of Influenza at Scale
 
-Dear reviewer,
+# Social Media Sensors to Detect Early Warnings of Influenza at Scale
 
-If you are here, it's beacause you read our article _High Out Degree Twitter Users as Sensors to Detect Early Warnings of Influenza at Scale_.
-
-Thanks for taking the time and we hope to help you on your work with this documentation. 
-
-In this repository you can find the following artefacts to understand and reproduce our work:
+This repository contains the code and aggregated data to reproduce some sofware arfacts and figures of Martín-Corral et al. "Social Media Sensors to Detect Early Warnings of Influenza at Scale".
 
 1. First person ili-related mentions classifier (folder: 01_nlp)
 
@@ -16,17 +11,17 @@ In this repository you can find the following artefacts to understand and reprod
 
 4. ILI Sensors logistic regression models (folder: 04_logistic_regression)
 
-Below you can find details on how to run our code for each folder.
+Below you can find details on how to run the code for each folder.
 
 ## First person ili-related mentions classifier
 
 This first folder contains a sample code in _python_ to train a NLP model classifier with the purpose to detect First person ili-related mentions.
 
-We also provide a sample dataset of tweets (_sample_tweets.csv_) to run the code.
+It also contains a sample dataset of tweets (_sample_tweets.csv_) to run the code.
 
 How to run the code.
 
-First, you should install all the libraries needed, they are contained in the file _requierements.txt_
+First, it is needed to install some python libraries, they are contained in the file _requierements.txt_
 
 After you have installed all libraries, then run:
 
@@ -61,7 +56,7 @@ Variables:
 
 This second folder contains the python code develop to enrich our data with the IPTC taxonomy.
 
-We also provide a sample dataset of tweets (_sample_tweets.csv_) to run the code.
+It also contains a sample dataset of tweets (_sample_tweets.csv_) to run the code.
 
 
 ```
